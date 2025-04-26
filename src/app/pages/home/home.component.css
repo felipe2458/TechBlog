@@ -32,7 +32,6 @@ header .header-centralize .header-image-wraper{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  font-family: 'Roboto', sans-serif;
 }
 
 .header-centralize .header-text-wraper .header-text .header-title h1{
@@ -60,7 +59,6 @@ header .header-centralize .header-image-wraper{
   color: whitesmoke;
   font-size: 18px;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
@@ -70,4 +68,34 @@ header .header-centralize .header-image-wraper{
   background-image: url('/assets/images/header-image.png');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+section.container-infos{
+  width: 100%;
+  height: 1073px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-infos .sub-infos-wraper{
+  width: 1216px;
+  height: 913px;
+}
+
+.container-infos .sub-infos-wraper header{
+  width: 100%;
+  height: 15%;
+}
+
+.container-infos .sub-infos-wraper header h1{
+  font-size: 32px;
+}
+
+.container-infos .sub-infos-wraper .container-infos-wraper{
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

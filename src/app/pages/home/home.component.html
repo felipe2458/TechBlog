@@ -23,4 +23,20 @@
       </div><!-- header-image-wraper -->
     </div><!-- container-centralize -->
   </header>
+
+  <section class="container-infos">
+    <div class="sub-infos-wraper">
+      <header>
+        <h1>Artigos recomendados</h1>
+      </header>
+
+      <div class="container-infos-wraper">
+        @for(info of dados; track info){
+          <div class="info-wraper">
+            <app-infos [url_image]="info.url_image" [title]="info.title" [description]="info.description"></app-infos>
+          </div><!-- info-wraper -->
+        }
+      </div><!-- container-infos-wraper -->
+    </div><!-- sub-infos-wraper -->
+  </section><!-- container-infos -->
 </div><!-- container -->
