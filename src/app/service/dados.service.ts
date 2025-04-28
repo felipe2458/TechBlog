@@ -10,6 +10,6 @@ export class DadosService {
   constructor(private http: HttpClient) { }
 
   getDados(): Observable<infos[]>{
-    return this.http.get<infos[]>('/assets/json/dados.json');
+    return this.http.get<infos[]>('assets/json/dados.json');
   }
 }
